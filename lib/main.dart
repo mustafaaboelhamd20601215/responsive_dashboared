@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:responsive_dashboared/veiws/home_veiw.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true),
-      home: HomeVeiw(),
+      home: const HomeVeiw()
+
     );
   }
 }
